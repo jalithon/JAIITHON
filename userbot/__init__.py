@@ -2,9 +2,9 @@
 # Copyright (C) 2021 - JMTHON-AR
 # All rights reserved.
 #
-# This file is a part of < https://github.com/JMTHON-AR/JMTHON >
+# This file is a part of < https://github.com/JAIITHON-BR/JAIITHON >
 # Please read the GNU Affero General Public License in;
-# < https://github.com/JMTHON-AR/JM-THON/blob/master/LICENSE
+# < https://github.com/JAIITHON-BR/JAIITHON/blob/master/LICENSE
 # ===============================================================
 import time
 
@@ -16,21 +16,21 @@ from .core.session import jmthon
 from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "1.0.0"
-__license__ = "كـتابة وتـعديل فريـق جـمثون"
-__author__ = "جـمثون <https://T.ME/JMTHON>"
+__license__ = "كـتابة وتـعديل فريـق جيلثون"
+__author__ = "جيلثون <https://T.ME/JMTHON>"
 __copyright__ = "JMTHON TEAM (C) 2020 - 2021  " + __author__
 
 jmthon.version = __version__
 jmthon.tgbot.version = __version__
-LOGS = logging.getLogger("جـمثون")
+LOGS = logging.getLogger("جيلثون")
 bot = jmthon
 
 StartTime = time.time()
 JMVERSION = "5.2.0"
 
 
-if Config.UPSTREAM_REPO == "Jmthon-iq":
-    UPSTREAM_REPO_URL = "https://github.com/JMTHON-AR/JM-THON"
+if Config.UPSTREAM_REPO == "JAIITHON-AR":
+    UPSTREAM_REPO_URL = "https://github.com/JAIITHON-BR/JAIITHON"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
