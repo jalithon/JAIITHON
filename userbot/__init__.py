@@ -29,7 +29,7 @@ StartTime = time.time()
 JMVERSION = "5.2.0"
 
 
-if Config.UPSTREAM_REPO == "JAIITHON-AR":
+if Config.UPSTREAM_REPO == "JIITHON":
     UPSTREAM_REPO_URL = "https://github.com/JAIITHON-BR/JAIITHON"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
