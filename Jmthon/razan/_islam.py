@@ -1,5 +1,5 @@
 # from here loaded islamic
-# For jmthon only
+# For JAIITHON only
 
 razan = [
     """
