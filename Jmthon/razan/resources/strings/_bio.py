@@ -30,7 +30,7 @@ GGGNE = [
 `• Who hates you won't hurt you !Aren't to hurt you only you love.`
 
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
- ⌔︙CH : @JMTHON
+ ⌔︙CH : @JAIITHON
 """,
     """
 `• Death ends a life. not a relationship ،`
