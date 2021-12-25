@@ -9,8 +9,8 @@ from . import deEmojify
 
 plugin_category = "utils"
 
-# Copyright (C) 2021 JMTHON TEAM
-# FILES WRITTEN BY  @RR7PP
+# Copyright (C) 2021 JAIITHON TEAM
+# FILES WRITTEN BY  @XRZOC
 
 
 async def getTranslate(text, **kwargs):
