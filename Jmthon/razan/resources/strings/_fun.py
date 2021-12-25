@@ -1,6 +1,6 @@
 # not complete
-# by ~ @RR9R7
-# for ~ @Jmthon
+# by ~ @XRZOC
+# for ~ @JAIITHON
 
 kz = [
     "100% 🤍.",
