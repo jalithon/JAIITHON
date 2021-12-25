@@ -1,5 +1,5 @@
-# Copyright (C) 2021 JMTHON TEAM
-# FILES WRITTEN BY  @RR7PP
+# Copyright (C) 2021 JAIITHON TEAM
+# FILES WRITTEN BY  @XRZOC
 
 import requests
 from validators.url import url
