@@ -65,9 +65,9 @@ async def startupmessage():
         if BOTLOG:
             Config.CATUBLOGO = await jmthon.tgbot.send_file(
                 BOTLOG_CHATID,
-                "https://telegra.ph/file/e9cd63140ffaba419db6b.jpg",
-                caption="⌯︙**بــوت جـمـثـون يـعـمـل بـنـجـاح**  ✅ \n⌯︙**قـنـاة الـسـورس**  :  @JMTHON",
-                buttons=[(Button.url("كروب جـمثون", "https://t.me/GroupJmthon"),)],
+                "https://telegra.ph/file/186c828b1f37e78e463c4.jpg",
+                caption="⌯︙**بــوت جـليـثـون يـعـمـل بـنـجـاح**  ✅ \n⌯︙**قـنـاة الـسـورس**  :  @JAIITHON",
+                buttons=[(Button.url("كروب جـمثون", "https://t.me/GroupJalithon"),)],
             )
     except Exception as e:
         LOGS.error(e)
@@ -85,7 +85,7 @@ async def startupmessage():
             message = await jmthon.get_messages(msg_details[0], ids=msg_details[1])
             text = (
                 message.text
-                + "\n\n**⌯︙اهلا وسهلا لقد قمت باعاده تشغيل بـوت جـمثون تمت بنجاح**"
+                + "\n\n**⌯︙اهلا وسهلا لقد قمت باعاده تشغيل بـوت جـليثون تمت بنجاح**"
             )
             await jmthon.edit_message(msg_details[0], msg_details[1], text)
             if gvarstatus("restartupdate") is not None:
@@ -183,16 +183,16 @@ async def load_plugins(folder):
 
 async def autojo():
     try:
-        await jmthon(JoinChannelRequest("@JMTHON"))
+        await jmthon(JoinChannelRequest("@JAIITHON"))
         if gvar("AUTOEO") is False:
             return
         else:
             try:
-                await jmthon(JoinChannelRequest("@JMTHON"))
+                await jmthon(JoinChannelRequest("@JAIITHON"))
             except BaseException:
                 pass
             try:
-                await jmthon(JoinChannelRequest("@RR7PP"))
+                await jmthon(JoinChannelRequest("@XRZOC"))
             except BaseException:
                 pass
     except BaseException:
@@ -201,16 +201,16 @@ async def autojo():
 
 async def autozs():
     try:
-        await jmthon(JoinChannelRequest("@RR7PP"))
+        await jmthon(JoinChannelRequest("@XRZOC"))
         if gvar("AUTOZS") is False:
             return
         else:
             try:
-                await jmthon(JoinChannelRequest("@JMTHON"))
+                await jmthon(JoinChannelRequest("@JAIITHON"))
             except BaseException:
                 pass
             try:
-                await jmthon(JoinChannelRequest("@RR7PP"))
+                await jmthon(JoinChannelRequest("@XRZOC"))
             except BaseException:
                 pass
     except BaseException:
@@ -246,7 +246,7 @@ async def verifyLoggerGroup():
                 + str(e)
             )
     else:
-        descript = "- عزيزي المستخدم هذه هي مجموعه الاشعارات يرجى عدم حذفها  - @jmthon"
+        descript = "- عزيزي المستخدم هذه هي مجموعه الاشعارات يرجى عدم حذفها  - @jalithon"
         photobt = await jmthon.upload_file(file="Jmthon/razan/resources/start/Jmthonp.jpg")
         _, groupid = await create_supergroup(
             "مجموعة اشعارات جمثون ", jmthon, Config.TG_BOT_USERNAME, descript, photobt
@@ -275,7 +275,7 @@ async def verifyLoggerGroup():
                 "⌯︙حدث استثناء عند محاولة التحقق من PM_LOGGER_GROUP_ID.\n" + str(e)
             )
     else:
-        descript = "⌯︙ وظيفه الكروب يحفظ رسائل الخاص اذا ما تريد الامر احذف الكروب نهائي \n  - @JMTHON"
+        descript = "⌯︙ وظيفه الكروب يحفظ رسائل الخاص اذا ما تريد الامر احذف الكروب نهائي \n  - @JAIITHON"
         photobt = await jmthon.upload_file(file="Jmthon/razan/resources/start/Jmthonp.jpg")
         _, groupid = await create_supergroup(
             "مجموعة التخزين", jmthon, Config.TG_BOT_USERNAME, descript, photobt
