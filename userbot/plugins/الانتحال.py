@@ -1,5 +1,5 @@
-# Copyright (C) 2021 JMTHON TEAM
-# t.me/JMTHON
+# Copyright (C) 2021 JAIITHON TEAM
+# t.me/JAIITHON
 import html
 
 from telethon.tl import functions
