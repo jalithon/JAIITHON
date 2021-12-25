@@ -1,6 +1,6 @@
 from userbot import jmthon
 from userbot.utils import admin_cmd
-#jmthon 
+#jalithon 
 
 @jmthon.on(admin_cmd(pattern="خاص ?(.*)"))
 async def pmto(event):
@@ -23,6 +23,6 @@ async def pmto(event):
         await event.edit("**- يبدو انه هنالك شي خطأ**")
 
 
-"""   خاص بسورس جمثون ممنوع اخذ الملف بدون ذكر رابط القناة  ! """
+"""   خاص بسورس جليثون ممنوع اخذ الملف بدون ذكر رابط القناة  ! """
 
 CMD_HELP.update({"ارسال خاص": ".خاص <المعرف><الرسالة>\nالامر يرسل رسالة لشخص معين بدون الحاجه ان تدخل للدردشه اله فقط اكتب الامر مع معرف الحساب مع الرسالة وجربه بنفسك"})
