@@ -37,5 +37,5 @@ async def _(event):
         )
 
 
-# JMTHON USERBOT
-# @RR7PP
+# JAIITHON USERBOT
+# @XRZOC
