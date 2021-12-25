@@ -1,6 +1,6 @@
 """
-created by @RR7PP
-Idea by @JMTHON
+created by @XRZOC
+Idea by @JAIITHON
 """
 
 from userbot import jmthon
