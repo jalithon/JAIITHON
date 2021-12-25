@@ -1,10 +1,10 @@
-# @Jmthon - < https://t.me/Jmthon >
-# Copyright (C) 2021 - JMTHON-AR
+# @Jmthon - < https://t.me/Jalithon >
+# Copyright (C) 2021 - JAIITHON-BR
 # All rights reserved.
 #
-# This file is a part of < https://github.com/JMTHON-AR/JMTHON-AR >
+# This file is a part of < https://github.com/JAIITHON-BR/JAIITHON-BR >
 # Please read the GNU Affero General Public License in;
-# < https://github.com/JMTHON-AR/JMTHON-AR/blob/master/LICENSE 
+# < https://github.com/JAIITHON-BR/JAIITHON-BR/blob/master/LICENSE 
 # ===============================================================import threading
 #
 import re
@@ -12,7 +12,7 @@ from userbot import jmthon
 from userbot.utils import admin_cmd
 
 @jmthon.on(admin_cmd(pattern="اكس او$"))
-# كتابة وتعديل فريق جمثون  #@RR7PP
+# كتابة وتعديل فريق جليثون  #@XRZOC
 async def gamez(event):
     if event.fwd_from:
         return
