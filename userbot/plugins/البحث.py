@@ -1,11 +1,11 @@
-# @Jmthon - < https://t.me/Jmthon >
-# Copyright (C) 2021 - JMTHON-AR
+# @JAIITHON - < https://t.me/JAIITHON >
+# Copyright (C) 2021 - JAIITHON-BR
 # All rights reserved.
 # thanks for Dark cobra for this plugin 
 #
-# This file is a part of < https://github.com/JMTHON-AR/JMTHON-AR >
+# This file is a part of < https://github.com/JAIITHON-BR/JAIITHON-BR >
 # Please read the GNU Affero General Public License in;
-# < https://github.com/JMTHON-AR/JMTHON-AR/blob/master/LICENSE 
+# < https://github.com/JAIITHON-BR/JAIITHON-BR/blob/master/LICENSE 
 # ===============================================================
 import asyncio
 #
