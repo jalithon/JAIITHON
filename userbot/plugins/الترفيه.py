@@ -1,10 +1,6 @@
-# @Jmthon - < https://t.me/Jmthon >
-# Copyright (C) 2021 - JMTHON-AR
+# @JAIITHON - < https://t.me/JAIITHON >
+# Copyright (C) 2021 - JAIITHON-BR
 # All rights reserved.
-#
-# This file is a part of < https://github.com/JMTHON-AR/JM-THON >
-# Please read the GNU Affero General Public License in;
-# < https://github.com/JMTHON-AR/JM-THON/blob/master/LICENSE
 # ===============================================================
 
 import random
