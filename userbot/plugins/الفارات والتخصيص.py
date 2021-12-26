@@ -65,7 +65,7 @@ async def bad(event):
             vname = oldvars[vname]
         if cmd == "اضف_":
             if not vinfo and vname == "ALIVE_TEMPLATE":
-                return await edit_delete(event, f"تابع @JJOTT")
+                return await edit_delete(event, f"تابع @JJTHH")
             if not vinfo and vname == "PING_TEXT":
                 return await edit_delete(
                     event,
@@ -223,4 +223,4 @@ async def custom_catuserbot(event):
             f" ⌯︙حـذف فـار\
                     \n**{input_str}** تـم حـذف هـذا الفـار",
         )
-#Jmthon
+#JAIITHON
