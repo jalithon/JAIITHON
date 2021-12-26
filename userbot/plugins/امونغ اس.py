@@ -15,7 +15,7 @@ from . import ALIVE_NAME
 
 plugin_category = "extra"
 
-# كـتابة وتعـديل  @RR7PP
+# كـتابة وتعـديل  @𝗑𝗋𝗓𝗈𝖼
 # JMTHON ™
 async def amongus_gen(text: str, clr: int) -> str:
     url = "https://github.com/JMTHON-AR/Jmthon-Resources/raw/master/Resources/Amongus/"
