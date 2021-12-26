@@ -18,7 +18,7 @@ async def _(event):
     "To list all plugins in userbot"
     cmd = "ls userbot/plugins"
     o = (await _catutils.runcmd(cmd))[0]
-    OUTPUT = f"**[جـمـثـون](tg://need_update_for_some_feature/) الـمـلفـات:**\n{o}"
+    OUTPUT = f"**[جـليـثـون](tg://need_update_for_some_feature/) الـمـلفـات:**\n{o}"
     await edit_or_reply(event, OUTPUT)
 
 
@@ -35,7 +35,7 @@ async def _(event):
     "To show all config values in userbot"
     cmd = "env"
     o = (await _catutils.runcmd(cmd))[0]
-    OUTPUT = f"**[جـمـثـون](tg://need_update_for_some_feature/) قـائمـة الـفـارات:**\n\n\n{o}"
+    OUTPUT = f"**[جـليـثـون](tg://need_update_for_some_feature/) قـائمـة الـفـارات:**\n\n\n{o}"
     await edit_or_reply(event, OUTPUT)
 
 
