@@ -249,7 +249,7 @@ async def verifyLoggerGroup():
         descript = "- عزيزي المستخدم هذه هي مجموعه الاشعارات يرجى عدم حذفها  - @jalithon"
         photobt = await jmthon.upload_file(file="Jmthon/razan/resources/start/Jmthonp.jpg")
         _, groupid = await create_supergroup(
-            "مجموعة اشعارات جمثون ", jmthon, Config.TG_BOT_USERNAME, descript, photobt
+            "مجموعة اشعارات جليثون ", jmthon, Config.TG_BOT_USERNAME, descript, photobt
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print("⌯︙تم إنشاء مجموعة المسـاعدة بنجاح وإضافتها إلى المتغيرات.")
